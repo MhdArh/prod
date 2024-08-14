@@ -25,8 +25,8 @@
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
-		if (window.location.href.includes('cmfgroup.com')) {
-           		embedded_svc.settings.storageDomain = 'cmfgroup.com';
+		if (window.location.href.includes('htmlpreview.github.io')) {
+           		embedded_svc.settings.storageDomain = 'htmlpreview.github.io';
       		}
 
 		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
