@@ -1,23 +1,11 @@
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #14B590 !important; /* green color */
-        font-family: "Arial", sans-serif;
-        min-width: unset;
-        max-width: unset;
-        width: 50px !important;
-        height: 50px !important;
-        border-radius: 50% !important;
-        padding: 0px 15px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
+		background-color: #14B590;
+		font-family: "Arial", sans-serif;
 	}
-	.embeddedServiceIcon{
-        padding-left: 8px;
-    }
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-        outline: 1px solid #14B590 !important; /* Green color */
-    }
+		outline: 1px solid #14B590;
+	}
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
@@ -25,7 +13,6 @@
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
-		
 
 		//embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
