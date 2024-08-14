@@ -25,6 +25,7 @@
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+		Console.log('----------------->' +window.location.href);
 		if (window.location.href.includes('htmlpreview.github.io')) {
            		embedded_svc.settings.storageDomain = 'htmlpreview.github.io';
 			console.log('hey');
